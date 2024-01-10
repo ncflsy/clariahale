@@ -1,251 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-</head>
-<body class="font-outfit">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claria Hale</title>
+    <!-- <link rel="stylesheet" href="/public/css/style.css"> -->
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="font-outfit">
     <header class="w-full top-0 left-0 z-99 bg-redVelvet">
-        <div class="h-12 container flex items-center  justify-between px-[20px] md:px-[130px]">
-          <div class="flex">
-            <!-- <img src="/public/img/bg-mochi.png" alt="" class="w-[30px]"> -->
-            <h1 class="text-white font-semibold">claria.hale</h1>
-          </div>
-          <div id="nav-button" class="md:hidden">
-            <span class="nav-line transition duration-300 ease-in-out"></span>
-            <span class="nav-line transition duration-300 ease-in-out"></span>
-            <span class="nav-line transition duration-300 ease-in-out"></span>
-          </div>
-          <nav class="hidden md:flex items-center absolute text-black md:text-white bg-white md:bg-transparent shadow-lg md:shadow-none rounded-lg max-w[250px] px-2 py-4 right-4 top-8 md:right-2 md:top-0 md:py-0 md:h-12 h-[180px]">
-            <ul>
-              <li class="flex flex-col md:flex-row my-auto">
-                <a href="#hero" class="px-4 hover:text-white md:hover:text-black">Beranda</a>
-                <a href="#history" class="px-4 hover:text-white md:hover:text-black">Kelebihan</a>
-                <a href="#visi-misi" class="px-4 hover:text-white md:hover:text-black">Menu</a>
-                <a href="#kegiatan" class="px-4 hover:text-white md:hover:text-black">Proses</a>
-                <a href="#kegiatan" class="px-4 hover:text-white md:hover:text-black">Testimoni</a>
-                <a href="/public/login.php" class="px-4 hover:text-white md:text-black md:border md:border-lightGrey md:text-sm md:font-semibold xs:text-white bg-white rounded-xl md:uppercase">Order</a>
-              </li>
-            </ul>
-          </nav>
+      <div
+        class="h-12 container flex items-center justify-between px-[20px] md:px-[130px]"
+      >
+        <div class="flex">
+          <!-- <img src="/public/img/bg-mochi.png" alt="" class="w-[30px]"> -->
+          <h1 class="text-white font-semibold">claria.hale</h1>
         </div>
-      </header>
+        <div id="nav-button" class="md:hidden">
+          <span class="nav-line transition duration-300 ease-in-out"></span>
+          <span class="nav-line transition duration-300 ease-in-out"></span>
+          <span class="nav-line transition duration-300 ease-in-out"></span>
+        </div>
+        <nav
+          class="hidden md:flex items-center absolute text-black md:text-white bg-white md:bg-transparent shadow-lg md:shadow-none rounded-lg max-w[250px] px-2 py-4 right-4 top-8 md:right-2 md:top-0 md:py-0 md:h-12 h-[180px]"
+        >
+          <ul>
+            <li class="flex flex-col md:flex-row my-auto">
+              <a href="#hero" class="px-4 hover:text-white md:hover:text-black"
+                >Beranda</a
+              >
+              <a
+                href="#history"
+                class="px-4 hover:text-white md:hover:text-black"
+                >Kelebihan</a
+              >
+              <a
+                href="#visi-misi"
+                class="px-4 hover:text-white md:hover:text-black"
+                >Menu</a
+              >
+              <a
+                href="#kegiatan"
+                class="px-4 hover:text-white md:hover:text-black"
+                >Proses</a
+              >
+              <a
+                href="#kegiatan"
+                class="px-4 hover:text-white md:hover:text-black"
+                >Testimoni</a
+              >
+              <a
+                href="/public/login.php"
+                class="px-4 hover:text-white md:text-black md:border md:border-lightGrey md:text-sm md:font-semibold xs:text-white bg-white rounded-xl md:uppercase"
+                >Order</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <section id="hero">
-        <div class="bg-pink px-4 pt-10 sm:flex md:justify-center sm:px-16 md:px-32">
-            <div class="sm:my-auto">
-                <h3 class="text-lg font-semibold">IT'S TIME FOR</h3>
-                <h1 class="text-redVelvet text-6xl font-bold">MOCHI</h1>
-                <p class="text-brown md:w-[300px]">Moci adalah kue Jepang yang terbuat dari beras ketan, ditumbuk sehingga lembut dan lengket, kemudian dibentuk menjadi bulat.</p>
-                <a id="btn-menu" class="bg-redVelvet text-white px-6 py-2 mt-2 mb-4 rounded-full inline-block cursor-pointer">Menu Kami 📝</a>
-            </div>
-            <div>
-                <img src="/public/img/bg-mochi.png" alt="" class="w-[300px] sm:w-[600px]">
-            </div>
+      <div
+        class="bg-pink px-4 pt-10 sm:flex md:justify-center sm:px-16 md:px-32"
+      >
+        <div class="sm:my-auto">
+          <h3 class="text-lg font-semibold">IT'S TIME FOR</h3>
+          <h1 class="text-redVelvet text-6xl font-bold">MOCHI</h1>
+          <p class="text-brown md:w-[300px]">
+            Moci adalah kue Jepang yang terbuat dari beras ketan, ditumbuk
+            sehingga lembut dan lengket, kemudian dibentuk menjadi bulat.
+          </p>
+          <a
+            id="btn-menu"
+            class="bg-redVelvet text-white px-6 py-2 mt-2 mb-4 rounded-full inline-block cursor-pointer"
+            >Menu Kami 📝</a
+          >
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5E3E5" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,154.7C384,171,480,181,576,176C672,171,768,149,864,128C960,107,1056,85,1152,106.7C1248,128,1344,192,1392,224L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <div>
+          <img
+            src="/public/img/bg-mochi.png"
+            alt=""
+            class="w-[300px] sm:w-[600px]"
+          />
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F5E3E5"
+          fill-opacity="1"
+          d="M0,96L48,106.7C96,117,192,139,288,154.7C384,171,480,181,576,176C672,171,768,149,864,128C960,107,1056,85,1152,106.7C1248,128,1344,192,1392,224L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
     </section>
 
     <section id="fly mt-[100px]">
-        <div class="flex justify-between sm:justify-evenly mx-auto items-center shadow-lg w-[80%] max-w-[600px] px-[50px] h-[70px] rounded-full">
-            <div>
-                <img src="/public/img/fly-section/harvest.png" alt="" class="w-[30px]">
-                <p class="text-[11px] font-semibold text-brown">Fresh</p>
-            </div>
-            <div>
-                <img src="/public/img/fly-section/shipped.png" alt="" class="w-[30px]">
-                <p class="text-[11px] font-semibold text-brown">Fast</p>
-            </div>
-            <div>
-                <img src="/public/img/fly-section/money.png" alt="" class="w-[30px]">
-                <p class="text-[11px] font-semibold text-brown">Chip</p>
-            </div>
+      <div
+        class="flex justify-between sm:justify-evenly mx-auto items-center shadow-lg w-[80%] max-w-[600px] px-[50px] h-[70px] rounded-full"
+      >
+        <div>
+          <img
+            src="/public/img/fly-section/harvest.png"
+            alt=""
+            class="w-[30px]"
+          />
+          <p class="text-[11px] font-semibold text-brown">Fresh</p>
         </div>
+        <div>
+          <img
+            src="/public/img/fly-section/shipped.png"
+            alt=""
+            class="w-[30px]"
+          />
+          <p class="text-[11px] font-semibold text-brown">Fast</p>
+        </div>
+        <div>
+          <img
+            src="/public/img/fly-section/money.png"
+            alt=""
+            class="w-[30px]"
+          />
+          <p class="text-[11px] font-semibold text-brown">Chip</p>
+        </div>
+      </div>
     </section>
 
     <section id="menu" class="pt-[50px] pb-[80px]">
-        <h1 class="text-center text-redVelvet font-bold text-2xl">MENU KAMI</h1>
-        <div class="flex justify-evenly max-w-[800px] mx-auto flex-wrap">
-            <div class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey">
-                <h3>Mochi Stawbery</h3>
-                <div>
-                    <p>⭐ 4,7</p>
-                </div>
-                <img src="/public/img/menu-section/stawbery.jpg" alt="" class="w-[70px] rounded-full">
-                <p>Rp 2,500</p>
-                <p>/pcs</p>
-                <div class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full">
-                    <a class="text-2xl text-white">+</a>
-                </div>
-            </div>
-
-            <div class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey">
-                <h3>Mochi Coklat</h3>
-                <div>
-                    <p>⭐ 4,7</p>
-                </div>
-                <img src="/public/img/menu-section/stawbery.jpg" alt="" class="w-[70px] rounded-full">
-                <p>Rp 2,500</p>
-                <p>/pcs</p>
-                <div class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full">
-                    <a class="text-2xl text-white">+</a>
-                </div>
-            </div>
-            <div class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey">
-                <h3>Mochi Vanila</h3>
-                <div>
-                    <p>⭐ 4,7</p>
-                </div>
-                <img src="/public/img/menu-section/stawbery.jpg" alt="" class="w-[70px] rounded-full">
-                <p>Rp 2,500</p>
-                <p>/pcs</p>
-                <div class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full">
-                    <a class="text-2xl text-white">+</a>
-                </div>
-            </div>
-            <div class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey">
-                <h3>Mochi Kacang</h3>
-                <div>
-                    <p>⭐ 4,7</p>
-                </div>
-                <img src="/public/img/menu-section/stawbery.jpg" alt="" class="w-[70px] rounded-full">
-                <p>Rp 2,500</p>
-                <p>/pcs</p>
-                <div class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full">
-                    <a class="text-2xl text-white">+</a>
-                </div>
-            </div>
+      <h1 class="text-center text-redVelvet font-bold text-2xl">MENU KAMI</h1>
+      <div class="flex justify-evenly max-w-[800px] mx-auto flex-wrap">
+        <div
+          class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey"
+        >
+          <h3>Mochi Stawbery</h3>
+          <div>
+            <p>⭐ 4,7</p>
+          </div>
+          <img
+            src="/public/img/menu-section/stawbery.jpg"
+            alt=""
+            class="w-[70px] rounded-full"
+          />
+          <p>Rp 2,500</p>
+          <p>/pcs</p>
+          <div
+            class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full"
+          >
+            <a class="text-2xl text-white">+</a>
+          </div>
         </div>
+
+        <div
+          class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey"
+        >
+          <h3>Mochi Coklat</h3>
+          <div>
+            <p>⭐ 4,7</p>
+          </div>
+          <img
+            src="/public/img/menu-section/stawbery.jpg"
+            alt=""
+            class="w-[70px] rounded-full"
+          />
+          <p>Rp 2,500</p>
+          <p>/pcs</p>
+          <div
+            class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full"
+          >
+            <a class="text-2xl text-white">+</a>
+          </div>
+        </div>
+        <div
+          class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey"
+        >
+          <h3>Mochi Vanila</h3>
+          <div>
+            <p>⭐ 4,7</p>
+          </div>
+          <img
+            src="/public/img/menu-section/stawbery.jpg"
+            alt=""
+            class="w-[70px] rounded-full"
+          />
+          <p>Rp 2,500</p>
+          <p>/pcs</p>
+          <div
+            class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full"
+          >
+            <a class="text-2xl text-white">+</a>
+          </div>
+        </div>
+        <div
+          class="shadow-xl w-[150px] flex flex-col items-center py-2 my-2 rounded-xl border border-lightGrey"
+        >
+          <h3>Mochi Kacang</h3>
+          <div>
+            <p>⭐ 4,7</p>
+          </div>
+          <img
+            src="/public/img/menu-section/stawbery.jpg"
+            alt=""
+            class="w-[70px] rounded-full"
+          />
+          <p>Rp 2,500</p>
+          <p>/pcs</p>
+          <div
+            class="bg-orange w-[55px] h-[25px] justify-center items-center flex rounded-full"
+          >
+            <a class="text-2xl text-white">+</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section>
-        <div class="bg-pink w-full flex justify-evenly py-4">
-            <div>
-                <div class="bg-white shadow-md rounded-full w-[70px] h-[70px] flex mx-auto mb-[5px]">
-                    <div class="w-[60px] h-[60px] rounded-full border border-lightGrey flex mx-auto my-auto">
-                        <img src="/public/img/process-section/checkout.png" alt="" class="w-[30px] mx-auto my-auto">
-                    </div>
-                </div>
-                <h1 class="text-[13px] font-bold text-center text-redVelvet">1. Pre Order</h1>
-                <p class="w-[100px] text-[10px] text-center">Pembeli melakukan pre order dengan memilih pilihan menu yang dipesan</p>
+      <div class="bg-pink w-full flex justify-evenly py-4">
+        <div>
+          <div
+            class="bg-white shadow-md rounded-full w-[70px] h-[70px] flex mx-auto mb-[5px]"
+          >
+            <div
+              class="w-[60px] h-[60px] rounded-full border border-lightGrey flex mx-auto my-auto"
+            >
+              <img
+                src="/public/img/process-section/checkout.png"
+                alt=""
+                class="w-[30px] mx-auto my-auto"
+              />
             </div>
-            <div class="my-auto">
-                <img src="/public/img/process-section/right-arrow (4).png" alt="" class="w-[30px]">
-            </div>
-            <div>
-                <div class="bg-white shadow-md rounded-full w-[70px] h-[70px] flex mx-auto mb-[5px]">
-                    <div class="w-[60px] h-[60px] rounded-full border border-lightGrey flex mx-auto my-auto">
-                        <img src="/public/img/process-section/bake.png" alt="" class="w-[30px] mx-auto my-auto">
-                    </div>
-                </div>
-                <h1 class="text-[13px] font-bold text-center text-redVelvet">2. Pembuatan</h1>
-                <p class="w-[100px] text-[10px] text-center">Pesanan yang telah dikonfirmasi akan dibuatkan sesuai dengan menu yang dipesan</p>
-            </div>
-            <div class="my-auto">
-                <img src="/public/img/process-section/right-arrow (4).png" alt="" class="w-[30px]">
-            </div>
-            <div>
-                <div class="bg-white shadow-md rounded-full w-[70px] h-[70px] flex mx-auto mb-[5px]">
-                    <div class="w-[60px] h-[60px] rounded-full border border-lightGrey flex mx-auto my-auto">
-                        <img src="/public/img/process-section/box.png" alt="" class="w-[30px] mx-auto my-auto">
-                    </div>
-                </div>
-                <h1 class="text-[13px] font-bold text-center text-redVelvet">3. Pengirim</h1>
-                <p class="w-[100px] text-[10px] text-center">Pesanan yang telah selesai dibuat akan langsung dikirim ke pembeli</p>
-            </div>
+          </div>
+          <h1 class="text-[13px] font-bold text-center text-redVelvet">
+            1. Pre Order
+          </h1>
+          <p class="w-[100px] text-[10px] text-center">
+            Pembeli melakukan pre order dengan memilih pilihan menu yang dipesan
+          </p>
         </div>
+        <div class="my-auto">
+          <img
+            src="/public/img/process-section/right-arrow (4).png"
+            alt=""
+            class="w-[30px]"
+          />
+        </div>
+        <div>
+          <div
+            class="bg-white shadow-md rounded-full w-[70px] h-[70px] flex mx-auto mb-[5px]"
+          >
+            <div
+              class="w-[60px] h-[60px] rounded-full border border-lightGrey flex mx-auto my-auto"
+            >
+              <img
+                src="/public/img/process-section/bake.png"
+                alt=""
+                class="w-[30px] mx-auto my-auto"
+              />
+            </div>
+          </div>
+          <h1 class="text-[13px] font-bold text-center text-redVelvet">
+            2. Pembuatan
+          </h1>
+          <p class="w-[100px] text-[10px] text-center">
+            Pesanan yang telah dikonfirmasi akan dibuatkan sesuai dengan menu
+            yang dipesan
+          </p>
+        </div>
+        <div class="my-auto">
+          <img
+            src="/public/img/process-section/right-arrow (4).png"
+            alt=""
+            class="w-[30px]"
+          />
+        </div>
+        <div>
+          <div
+            class="bg-white shadow-md rounded-full w-[70px] h-[70px] flex mx-auto mb-[5px]"
+          >
+            <div
+              class="w-[60px] h-[60px] rounded-full border border-lightGrey flex mx-auto my-auto"
+            >
+              <img
+                src="/public/img/process-section/box.png"
+                alt=""
+                class="w-[30px] mx-auto my-auto"
+              />
+            </div>
+          </div>
+          <h1 class="text-[13px] font-bold text-center text-redVelvet">
+            3. Pengirim
+          </h1>
+          <p class="w-[100px] text-[10px] text-center">
+            Pesanan yang telah selesai dibuat akan langsung dikirim ke pembeli
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="order">
-        <div class="flex py-12 px-4 justify-center">
-            <div class="my-auto">
-                <img src="/public/img/order-section/gambar-mochi.png" alt="" class="w-[120px]">
-            </div>
-            <div class="ps-4 sha">
-                <h1 class="font-bold text-xl sm:text-2xl md:text-3xl text-orange">Pengen yaa? Yuk buruan order!</h1>
-                <a id="btn-menu" href="http://wa.me/+62859181973137" class="bg-redVelvet text-white px-4 py-2 mt-2 mb-4 rounded-full inline-block text-sm cursor-pointer">Order Sekarang 📥</a>
-            </div>
+      <div class="flex py-12 px-4 justify-center">
+        <div class="my-auto">
+          <img
+            src="/public/img/order-section/gambar-mochi.png"
+            alt=""
+            class="w-[120px]"
+          />
         </div>
+        <div class="ps-4 sha">
+          <h1 class="font-bold text-xl sm:text-2xl md:text-3xl text-orange">
+            Pengen yaa? Yuk buruan order!
+          </h1>
+          <a
+            id="btn-menu"
+            href="http://wa.me/+62859181973137"
+            class="bg-redVelvet text-white px-4 py-2 mt-2 mb-4 rounded-full inline-block text-sm cursor-pointer"
+            >Order Sekarang 📥</a
+          >
+        </div>
+      </div>
     </section>
 
     <section id="testimoni" class="pb-10">
-        <h1 class="text-center text-redVelvet font-bold text-2xl mb-8">TESTIMONI</h1>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <div class="w-[200px] mx-auto rounded-xl p-2 shadow-2xl border border-lightGrey">
-                    <img src="/public/img/testimoni-section/testimoni 1.jpg" alt="">
-                    <h5 class="text-sm text-center font-medium">" Beuh, mochi empuk! Coklatnya juga lumer. Pokok ga nyesel beli dehh "</h5>
-                    <p class="text-xs text-center">- Claura Dini</p>
-                </div>
+      <h1 class="text-center text-redVelvet font-bold text-2xl mb-8">
+        TESTIMONI
+      </h1>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div
+              class="w-[200px] mx-auto rounded-xl p-2 shadow-2xl border border-lightGrey"
+            >
+              <img src="/public/img/testimoni-section/testimoni 1.jpg" alt="" />
+              <h5 class="text-sm text-center font-medium">
+                " Beuh, mochi empuk! Coklatnya juga lumer. Pokok ga nyesel beli
+                dehh "
+              </h5>
+              <p class="text-xs text-center">- Claura Dini</p>
             </div>
-            <div class="swiper-slide">
-                <div class="w-[200px] mx-auto rounded-xl p-2 shadow-2xl border border-lightGrey">
-                    <img src="/public/img/testimoni-section/testimoni 1.jpg" alt="">
-                    <h5 class="text-sm text-center font-medium">" Enak bett woii, gilaa parah omaygatt "</h5>
-                    <p class="text-xs text-center">- Fidi</p>
-                </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="w-[200px] mx-auto rounded-xl p-2 shadow-2xl border border-lightGrey"
+            >
+              <img src="/public/img/testimoni-section/testimoni 1.jpg" alt="" />
+              <h5 class="text-sm text-center font-medium">
+                " Enak bett woii, gilaa parah omaygatt "
+              </h5>
+              <p class="text-xs text-center">- Fidi</p>
             </div>
-            <div class="swiper-slide">
-                <div class="w-[200px] mx-auto rounded-xl p-2 shadow-2xl border border-lightGrey">
-                    <img src="/public/img/testimoni-section/testimoni 1.jpg" alt="">
-                    <h5 class="text-sm text-center font-medium">" Teksturnya mantull, enak banget apalagi rasa coklatnya enak bgt "</h5>
-                    <p class="text-xs text-center">- Yanto</p>
-                </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="w-[200px] mx-auto rounded-xl p-2 shadow-2xl border border-lightGrey"
+            >
+              <img src="/public/img/testimoni-section/testimoni 1.jpg" alt="" />
+              <h5 class="text-sm text-center font-medium">
+                " Teksturnya mantull, enak banget apalagi rasa coklatnya enak
+                bgt "
+              </h5>
+              <p class="text-xs text-center">- Yanto</p>
             </div>
-            ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
+          </div>
+          ...
         </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </section>
     <footer class="bg-redVelvet p-2 text-center">
-        <div class="flex justify-center gap-2 pt-2">
-            <img src="/public/img/footer/instagram.png" alt="" class="w-[20px]">
-            <img src="/public/img/footer/instagram.png" alt="" class="w-[20px]">
-            <img src="/public/img/footer/instagram.png" alt="" class="w-[20px]">
-        </div>
-        <div class="flex justify-center gap-2 pt-2 text-white text-xs">
-            <p>Beranda</p>
-            <p>Menu Kami</p>
-            <p>Proses</p>
-            <p>Testimoni</p>
-        </div>
-        <a href="" class="text-xs text-[#923A59]">copoit.id @ 2023</a>
+      <div class="flex justify-center gap-2 pt-2">
+        <img src="/public/img/footer/instagram.png" alt="" class="w-[20px]" />
+        <img src="/public/img/footer/instagram.png" alt="" class="w-[20px]" />
+        <img src="/public/img/footer/instagram.png" alt="" class="w-[20px]" />
+      </div>
+      <div class="flex justify-center gap-2 pt-2 text-white text-xs">
+        <p>Beranda</p>
+        <p>Menu Kami</p>
+        <p>Proses</p>
+        <p>Testimoni</p>
+      </div>
+      <a href="" class="text-xs text-[#923A59]">copoit.id @ 2023</a>
     </footer>
-    
+
     <script src="/public/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
+      const swiper = new Swiper(".swiper", {
         // Optional parameters
         loop: true,
         autoplay: {
-            delay: 2000,
+          delay: 2000,
         },
 
         // If we need pagination
         pagination: {
-            el: '.swiper-pagination',
+          el: ".swiper-pagination",
         },
 
         // Navigation arrows
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
-
-        });
+      });
     </script>
-</body>
+  </body>
 </html>
